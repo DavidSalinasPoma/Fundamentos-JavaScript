@@ -104,7 +104,7 @@ async function mirarDatos() {
     try {
         console.log('Hola mundo 1');
         // Await solo es valido dentro de una funcion Asincrona
-        const dato = await getDatos();
+        const dato = await getDatos(); // Aqui estoy esperando los datos
         console.log(dato);
 
         console.log('Hola mundo 2');
